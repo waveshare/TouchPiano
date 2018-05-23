@@ -1,0 +1,18 @@
+{
+    "name": "WSTouchPiano",
+    "version": "0.0.0",
+    "description": "Waveshare electronic",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.2"
+    },
+    "files": [
+        "README.md",
+        "WSTouchPiano.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
