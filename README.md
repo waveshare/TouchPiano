@@ -1,6 +1,6 @@
 # TouchPiano
 
-Waveshare Electronics
+Waveshare electronic
 
 ## TODO
 
@@ -22,3 +22,61 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 
+##################
+#Listening button
+
+if (WSTouchPiano.TP_Press(TP_PIANO.None)) {
+	#event
+}
+
+#example
+if (WSTouchPiano.TP_Press(TP_PIANO.C)) {
+    basic.showLeds(`
+        . . # # .
+        . # . . .
+        . # . . .
+        . # . . .
+        . . # # .
+        `)
+}
+
+##################
+#Play Music
+
+#example:
+WSJoyStick.PlayMusic(262, music.beat(BeatFraction.Whole))
+
+
+##################
+#Show rgb led
+
+WSTouchPiano.TP_ShowRGB(
+0,
+0,
+0,
+0
+)
+
+There are four ways to control the color:
+	WSTouchPiano.TP_SetColor(RGB_COLOR.RED),
+	WSTouchPiano.TP_SetRGB(0, 0, 0),
+	neopixel.colors(NeoPixelColors.Red),
+	neopixel.rgb(255, 255, 255)
+	
+#example:
+WSTouchPiano.TP_ShowRGB(
+WSTouchPiano.TP_SetColor(RGB_COLOR.RED),
+WSTouchPiano.TP_SetRGB(0, 0, 0),
+neopixel.colors(NeoPixelColors.Red),
+neopixel.rgb(255, 255, 255)
+)
+
+##################
+#You can use all the above methods to put together a program, or you can use this default method
+
+WSTouchPiano.TP_PlayPiano()
+
+#example:
+basic.forever(() => {
+    WSTouchPiano.TP_PlayPiano()
+})
