@@ -31,7 +31,7 @@ enum TP_PIANO {
     bB = 0x0400,
     B = 0x0800,
 
-    C1 = 0x1000,
+    C1 = 0x1000
 }
 
 /**
@@ -41,7 +41,7 @@ enum RGB_LED {
     RGB_L1 = 0,
     RGB_L2 = 1,
     RGB_L3 = 2,
-    RGB_L4 = 3,
+    RGB_L4 = 3
 }
 
 /**
