@@ -1,5 +1,5 @@
 {
-    "name": "WSTouchPiano",
+    "name": "TouchPiano",
     "version": "0.0.0",
     "description": "Waveshare electronic",
     "license": "MIT",
@@ -9,7 +9,7 @@
     },
     "files": [
         "README.md",
-        "WSTouchPiano.ts"
+        "TouchPiano.ts"
     ],
     "testFiles": [
         "test.ts"

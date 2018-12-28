@@ -1,0 +1,12 @@
+{
+  "RGB_COLOR.RED|block": "反转",
+  "RGB_COLOR.ORANGE|block": "正转",
+  "RGB_COLOR.YELLOW|block": "正转",
+  "RGB_COLOR.GREEN|block": "正转",
+  "RGB_COLOR.BLUE|block": "正转",
+  "RGB_COLOR.INDIGO|block": "正转",
+  "RGB_COLOR.VIOLET|block": "正转",
+  "RGB_COLOR.PURPLE|block": "正转",
+  "RGB_COLOR.WHITE|block": "正转",
+  "{id:category}TouchPiano": "TouchPiano"
+}
